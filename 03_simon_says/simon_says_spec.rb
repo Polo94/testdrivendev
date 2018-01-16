@@ -22,16 +22,16 @@ describe "Simon says" do
     it "should echo bye" do
       expect(echo("bye")).to eq("bye")
     end
-  end
+  end #ok
 
   describe "shout" do
     it "should shout hello" do
       expect(shout("hello")).to eq("HELLO")
-    end
+    end 
 
     it "should shout multiple words" do
       expect(shout("hello world")).to eq("HELLO WORLD")
-    end
+    end #ok
   end
 
   describe "repeat" do
